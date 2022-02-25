@@ -19,6 +19,6 @@
     <link href="assets/css/styles.css" rel="stylesheet" />
     <!--sweet alert-->
     <script src="assets/js/swal/swal.js"></script>
-    <title>Tender Request</title>
+    <title>Horas aplicadas</title>
 </head>
 <body class="nav-fixed bg-light">

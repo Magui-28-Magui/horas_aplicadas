@@ -24,6 +24,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.0-beta.10/chart.min.js" crossorigin="anonymous"></script>
 <!-- Load Simple DataTables Scripts-->
 <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', event => {
+        // Simple-DataTables
+        // https://github.com/fiduswriter/Simple-DataTables/wiki
+
+        const datatablesSimple = document.getElementById('datatablesSimple');
+        if (datatablesSimple) {
+            new simpleDatatables.DataTable(datatablesSimple);
+        }
+    });
+</script>
 </body>
 
 </html>
