@@ -13,8 +13,8 @@
                     <!-- Divider-->
                     <div class="drawer-menu-divider"></div>
                     <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseReports2" aria-expanded="false" aria-controls="collapseLayouts">
-                        <div class="nav-link-icon"><i class="material-icons">dashboard</i></div>
-                        Link
+                        <div class="nav-link-icon"><i class="material-icons">description</i></div>
+                        Reportes
                         <div class="drawer-collapse-arrow"><i class="material-icons">expand_more</i></div>
                     </a>
                     <div class="collapse" id="collapseReports2" aria-labelledby="headingOne" data-bs-parent="#drawerAccordion">

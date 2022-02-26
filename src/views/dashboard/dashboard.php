@@ -1,5 +1,6 @@
 <div class="container mt-4">
     <div class="row">
+        <!-- INFO CARDS -->
         <div class="col-md-4 mb-4">
             <div class="card card-raised border-start bg-primary border-4">
                 <div class="card-body px-4">
@@ -8,7 +9,7 @@
                             <div class="display-5 text-white">Asistencia</div>
                             <div class="card-text">Lorem ipsum dolor.</div>
                         </div>
-                        <div class="icon-circle bg-white-50 text-white"><i class="material-icons">space_dashboard</i></div>
+                        <div class="icon-circle bg-white-50 text-white"><i class="material-icons">assignment_turned_in</i></div>
                     </div>
                 </div>
             </div>
@@ -21,7 +22,7 @@
                             <div class="display-5 text-white">Movimientos</div>
                             <div class="card-text">Lorem ipsum dolor.</div>
                         </div>
-                        <div class="icon-circle bg-white-50 text-white"><i class="material-icons">space_dashboard</i></div>
+                        <div class="icon-circle bg-white-50 text-white"><i class="material-icons">swap_vert</i></div>
                     </div>
                 </div>
             </div>
@@ -34,23 +35,23 @@
                             <div class="display-5 text-white">Tiempo extra</div>
                             <div class="card-text">Lorem ipsum dolor.</div>
                         </div>
-                        <div class="icon-circle bg-white-50 text-white"><i class="material-icons">space_dashboard</i></div>
+                        <div class="icon-circle bg-white-50 text-white"><i class="material-icons">watch_later</i></div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="card bg-white shadow">
             <div class="row p-2 mb-5">
-
+                <!--FORM -->
                 <div class="col-md-8"></div>
-                <div class="col-md-4 mb-4">
-                <label for="t_extra" class="form-label">Selecciona Planta</label>
-                        <select class="form-select" id="t_extra" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
+                <div class="col-md-4 mb-4 mt-4">
+                    <label for="t_extra" class="form-label">Selecciona Planta</label>
+                    <select class="form-select" id="t_extra" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
                 </div>
 
                 <div class="col-md-4">
@@ -173,42 +174,6 @@
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                     <button class="btn btn-success" type="button">Guardar cambios</button>
                 </div>
-            </div>
-            <!--Table-->
-            <div class="card-body p-4">
-                <table id="datatablesSimple" class="text-center table table-striped table-hover">
-                    <thead>
-                        <tr>
-                            <th class="text-center">Request ID</th>
-                            <th class="text-center">Tender Date</th>
-                            <th class="text-center">Items</th>
-                            <th class="text-center">Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>R7</td>
-                            <td>2/18/22</td>
-                            <td>30</td>
-                            <td>
-                                <a href="" class="btn btn-raised-danger">
-                                    <i class="material-icons icon-sm me-1 text-light">delete</i>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>R8</td>
-                            <td>2/17/22</td>
-                            <td>30</td>
-                            <td>
-                                <a href="" class="btn btn-raised-danger">
-                                    <i class="material-icons icon-sm me-1 text-light">delete</i>
-                                </a>
-                            </td>
-                        </tr>
-
-                    </tbody>
-                </table>
             </div>
         </div>
     </div>
